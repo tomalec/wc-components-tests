@@ -1,0 +1,1 @@
+# A sample repo to visualize https://github.com/woocommerce/woocommerce-admin/issues/6483

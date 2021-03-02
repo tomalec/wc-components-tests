@@ -1,0 +1,22 @@
+{
+	"name": "my-plugin",
+	"title": "My Plugin",
+	"license": "GPL-3.0-or-later",
+	"version": "0.1.0",
+	"description": "My Plugin that uses woocommerce components",
+	"scripts": {
+		"build": "NODE_ENV=production wp-scripts build",
+		"start": "wp-scripts start",
+		"test-unit": "wp-scripts test-unit-js"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^11.1.0",
+		"@wordpress/scripts": "^12.5.0"
+	},
+	"dependencies": {
+		"@woocommerce/components": "^5.1.2",
+		"@woocommerce/date": "^2.1.0",
+		"@wordpress/date": "^2.1.0",
+		"@woocommerce/navigation": "^5.2.0"
+	}
+}
